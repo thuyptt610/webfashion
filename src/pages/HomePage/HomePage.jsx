@@ -11,7 +11,7 @@ import NavBarComponent from '../../components/NavBarComponent/NavBarComponent'
 import ButtonComponent from '../../components/ButtonComponent/ButtonComponent'
 
 const HomePage = () => {
-  const arr = ['TV', 'Laptop', 'Tủ lạnh']
+  const arr = ['Shirt', 'Trousers', 'Dress']
   return (
     <div style={{ padding: '0 120px' }}>
       <WrapperTypeProduct>
