@@ -8,8 +8,8 @@ import ButtonInputSearch from '../ButtonInputSearch/ButtonInputSearch';
 const HeaderComponent = () => {
   return (
     <WrapperHeader gutter={50}>
-      <Col span={6}><WrapperTextHeader>PhamThiThanhThuy</WrapperTextHeader></Col>
-      <Col span={12} style={{ display: 'flex', justifyContent: 'center' }}>
+      <Col span={5}><WrapperTextHeader>PhamThiThanhThuy</WrapperTextHeader></Col>
+      <Col span={13} style={{ display: 'flex', justifyContent: 'center' }}>
         <ButtonInputSearch size="large" textButton="Tìm Kiếm" placeholder="Input search text" />
       </Col>
       <Col span={6}>
